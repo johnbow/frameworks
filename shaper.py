@@ -21,7 +21,7 @@ class Shape:
             self.data = dict(zip(index, points))
 
     def connect(self, s, connector="-", delimiter=" ", **kwargs):
-        for connection in s.upper().split(delimiter):
+        for connection in s.split(delimiter):
             self.cons.append(connection.split(connector))
             self.cons[-1].append(kwargs)
 
