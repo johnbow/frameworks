@@ -11,3 +11,14 @@ display them. e.g.:
     pyramid.draw(label=True)
     plt.show()
 ```
+
+## animator.py
+Made for scientific purposes. Create simple yet meaningful animations with the __matplotlib.animations__ module.
+There are 2 classes for different animation types.
+
+### animator.PlotAnimation
+For animations using plt.plot(). Make sine waves or parameter variations of different functions
+and animate them to visualize your research.
+
+### animator.ContourAnimation
+For animations using plt.contourf(). Make 2-dimensional graphs and visualize their behaviour when you change a variable. 
